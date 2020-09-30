@@ -51,4 +51,4 @@ Dependencies: ISineWave.m
   Dependencies: SIRSineWave.m
 
 8. viridis.m
-  Function describing the colormaps used in the figures, and is freely available here: https://www.mathworks.com/matlabcentral/fileexchange/51986-perceptually-uniform-colormaps. NOTE that we claim no contribution to the development of this colormap. 
+  Function describing the colormaps used in the figures, and is freely available here: https://bids.github.io/colormap/. NOTE that we claim no contribution to the development of this colormap. 
