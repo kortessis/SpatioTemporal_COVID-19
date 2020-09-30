@@ -86,7 +86,7 @@ else % If they are at all out-of-phase, set the initial conditions such
      % Run dyanmics from time = 0 to tau.
     [Tnew,SIRnew] = ode45(@(t,SIR)...
         SIRSineWave(t,SIR,beta_bar, gamma_bar, beta_amp, gamma_amp, mu, 0, phi, tau, cycle_length),...
-        0.01:tau, SIR_init);
+        0:0.01:tau, SIR_init);
     
     % Save output as initial conditions for the rest of the simulation.
     SIR_init = [SIRnew(end,1), Ntotal/2-initial_infected, SIRnew(end,3), initial_infected, SIRnew(end,5), 0];
